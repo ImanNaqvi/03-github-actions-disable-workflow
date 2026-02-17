@@ -1,0 +1,11 @@
+name: Disable Me Workflow
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "This workflow should be disabled next"
